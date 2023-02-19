@@ -58,4 +58,29 @@ body {
   .bottom-line {
     margin-top: 25px;
   }
+
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .plate, .dessert, .drink {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: center;
+    width: 20%;
+    border-left-color: lightgray;
+    border-left-style: solid;
+    border-right-color:lightgray;
+    border-right-style: solid;
+  }
   
